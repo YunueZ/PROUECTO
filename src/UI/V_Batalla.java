@@ -26,6 +26,7 @@ public class V_Batalla extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -47,6 +48,10 @@ public class V_Batalla extends javax.swing.JFrame {
         getContentPane().add(jTextField1);
         jTextField1.setBounds(0, 380, 600, 40);
 
+        jButton1.setText("jButton1");
+        getContentPane().add(jButton1);
+        jButton1.setBounds(260, 140, 73, 23);
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -65,6 +70,7 @@ public class V_Batalla extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JTextField jTextField1;
